@@ -72,3 +72,8 @@ str = 'this is a String example!'
 print(str.replace('is','was',1))
 print(str.startswith('this'))
 print(str.endswith('le!'))
+
+"""
+这里是多行注释，python的多行注释，使用三个""","""
+"""
+
