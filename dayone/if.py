@@ -9,9 +9,9 @@ else:
     print(a,'大于7了')
 
 # python的三目运算符
-b=4
-c=6
-print(b) if b>c else print(c)
+b = 4
+c = 6
+print(b) if b > c else print(c)
 
 # 验证用户登录信息
 userName = input('请输入用户名')
@@ -26,7 +26,7 @@ else:
 a = int(input('a = '))
 b = int(input('b = '))
 c = int(input('c = '))
-if(a+b>c and a+c>b and b+c>a):
+if(a + b > c and a + c > b and b + c > a):
     print(f'边长为{a},{b},{c}的三角形的周长为:{a+b+c}')
     p  = (a+b+c)/2
     area = (p*(p-a)*(p-b)*(p-c))**0.5
